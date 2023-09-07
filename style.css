@@ -1,0 +1,28 @@
+
+ .parent {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    @media screen and (width: 600px) {
+        body{ 
+            flex-direction: column;
+        }
+      }     
+} 
+.imgmain { 
+    display: block;
+    margin: auto;
+}
+.button{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+a:hover{ 
+    color: rgb(94, 89, 89);
+}
+p{
+text-align: center;
+font-size: 45px;
+}

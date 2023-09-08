@@ -14,10 +14,22 @@
     display: block;
     margin: auto;
 }
-.button{
+.pilll{ 
+    padding: 0.5em 1em;
     position:absolute;
-    top: 50%;
-    left: 50%;
+    top: 90%;
+    right: 60%;
+    width: 150px;
+    font-size: 20px;
+}
+
+.pill {
+padding: 0.5em 1em;
+position:absolute;
+top: 90%;
+right: 27%;
+width: 150px;
+    font-size: 20px;
 }
 a:hover{ 
     color: rgb(94, 89, 89);
@@ -25,4 +37,40 @@ a:hover{
 p{
 text-align: center;
 font-size: 45px;
+}
+.search{ 
+    position:absolute;
+top: 80%;
+right: 50%;
+background-image: linear-gradient (rgba(195, 199, 220, 0.9),rgba(0,8,51,0.9)), url(background.jpg);
+}
+.search-bar { 
+    width: 200%;
+    height: 40px;
+    background: rgb(208, 203, 203);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 8px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+background: transparent;
+flex: 1;
+border: 0;
+outline: none;
+padding: 24px 20px;
+font-size: 20px;
+color: #44444f;
+}
+:: ::placeholder{ 
+    color: #cac7ff;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 40%;
+    width: 28px;
+    margin: 10px 20px;
+    background: #b3b5bf;
+    cursor: pointer;
 }
